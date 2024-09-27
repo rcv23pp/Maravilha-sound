@@ -1,3 +1,14 @@
+:root{
+    --cor-primaria-1: #8895B3;
+    --cor-primaria-2: #8E94F2;
+    --cor-primaria-3: #9FA0FF;
+    --cor-primaria-4: #BBADFF;
+    --cor-primaria-5: #DAB6FC;
+
+    --cor-neutra-1: #fff;
+    --cor-neutra-2: #1d1d1d;
+}
+
 header {
     width: 100%;
     padding: 20px 8%;
@@ -14,4 +25,17 @@ header {
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-neutra-2);
+}
+
+.nav_lista {
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    text-transform: uppercase;
+}
+
+.nav-item a {
+    background-color: var(--cor-neutra-2);
+    font-size: 1.2rem;
+    font-weight: 600;
 }
