@@ -43,6 +43,7 @@ header {
 .nav-item:hover {
     background-color: var(--cor-primaria-2);
     color: var(--cor-neutra-1);
+    cursor: pointer;
 }
 
 .nav-item.ativo a {
