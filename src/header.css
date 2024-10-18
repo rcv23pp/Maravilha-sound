@@ -39,3 +39,12 @@ header {
     font-size: 1.2rem;
     font-weight: 600;
 }
+
+.nav-item a:hover {
+    background-color: var(--cor-primaria-2);
+    color: var(--cor-neutra-1);
+}
+
+.nav-item.ativo a {
+    
+}
