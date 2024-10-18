@@ -49,3 +49,15 @@ header {
 .nav-item.ativo a {
 
 }
+
+.nav_celular {
+    display: none;
+}
+
+.btn-celular {
+    display: none;
+}
+
+.nav_celular .ativo {
+    display: block;
+}
