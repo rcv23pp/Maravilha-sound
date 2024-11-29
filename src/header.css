@@ -47,7 +47,7 @@ header {
 }
 
 .nav-item.ativo a {
-
+text-decoration: none;
 }
 
 .nav_celular {
